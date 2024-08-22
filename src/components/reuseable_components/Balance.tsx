@@ -5,7 +5,7 @@ export const Balance = () => {
     <div className="p-3">
       <div className="flex flex-col justify-center bg-lightgray rounded h-14  ">
         <div className="flex flex-row ">
-          <div className="w-8 h-8 m-3 bg-bluegray rounded">
+          <div className="w-8 h-8 m-3 bg-bluegray rounded hidden xl:block ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -21,7 +21,7 @@ export const Balance = () => {
               />
             </svg>
           </div>
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center xl:mr-4 xl:ml-2">
             <div className="text-white text-sm">Available credits</div>
             <div className="text-white text-sm">222.10</div>
           </div>

@@ -236,7 +236,7 @@ const menuData = [
 
 export const SideBar = () => {
   return (
-    <div className="bg-sideColor h-screen w-56">
+    <div className="bg-sideColor h-screen hidden lg:block col-span-2">
       <UserName />
       <div className="p-3">
         {menuData.map((item, index) => (

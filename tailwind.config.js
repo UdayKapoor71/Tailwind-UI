@@ -11,6 +11,8 @@ export default {
       bluegray: "#5b616e",
       thingray: "#EDEEF7",
       black: "#4D4D4D",
+      red: "#ff0000",
+      lightred: "#FFDEDE",
     },
   },
   plugins: [],

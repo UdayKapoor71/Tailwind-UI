@@ -9,6 +9,8 @@ export default {
       gray: "#acacad",
       lightgray: "#e1ffe11a",
       bluegray: "#5b616e",
+      thingray: "#EDEEF7",
+      black: "#4D4D4D",
     },
   },
   plugins: [],

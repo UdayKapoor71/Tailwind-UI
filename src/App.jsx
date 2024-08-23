@@ -7,8 +7,9 @@ function App() {
     <>
       <div className=" grid grid-cols-12">
         <SideBar />
-
         <Navbar />
+        
+
       </div>
     </>
   );
